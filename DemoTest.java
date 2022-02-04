@@ -5,6 +5,6 @@ public class DemoTest {
     @Test
     public void testmod() {
         skillDemo5 s5 = new skillDemo5();
-        assertEquals(s5.modulus(5, 5), 1); // Should fail
+        assertEquals(s5.modulus(5, 5), 0); // Should pass now
     }
 }
